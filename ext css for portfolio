@@ -1,0 +1,71 @@
+
+        body {
+            margin: 0;
+            background: linear-gradient(to right, #e66465, #9198e5);
+            font-family: sans-serif;
+        }
+
+        *{
+            margin-left: 30px;
+            margin-right: 40px;
+            margin-top: 30px;
+        }
+        
+        .skills{
+            line-height: 20px;
+        }
+
+        .instyle{
+            padding-left: 50px;
+        }
+
+        .big{
+            padding-left: 550px;
+        }
+
+        .navigation{
+            padding-left: 800px;
+        }
+
+        .profilepicture{
+            width: 500px;
+            height: 500px;
+            border-radius: 100%;
+        }
+
+        .Education{
+            line-height: 0px;
+            padding-left: 600px;
+
+        }
+
+        @media (max-width: 768px) {
+
+            .profilepicture {
+                width: 200px;
+                height: 200px;
+            }
+
+            .navigation {
+                padding-left: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .big, .Education, .instyle {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+
+            h1, p {
+                text-align: center !important;
+                padding: 0 !important;
+            }
+
+            video {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+        }
