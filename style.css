@@ -1,70 +1,39 @@
 
         
         body {
-            margin: 0;
-            background: linear-gradient(to right, #e66465, #9198e5);
-            font-family: sans-serif;
+            background: linear-gradient(to right, #e66465, #9198e5)
         }
 
         *{
-            margin-left: 30px;
-            margin-right: 40px;
+            margin-left: 4%;
+            margin-right: 2%;
             margin-top: 30px;
-        }
-        
-        .skills{
-            line-height: 20px;
-        }
-
-        .instyle{
-            padding-left: 50px;
-        }
-
-        .big{
-            padding-left: 550px;
         }
 
         .navigation{
-            padding-left: 800px;
-        }
-
-        .profilepicture{
-            width: 500px;
-            height: 500px;
-            border-radius: 100%;
-        }
-
-        .Education{
-            line-height: 20px;
-            padding-left: 600px;
-
+            text-align: right;
         }
         
-        .contioner{
-            background-color: transparent;
-            display: flex;
-            width: 1000px;
+        .profilepicture{
+            width: 200px;
             height: auto;
-            justify-content: space-between;
-            align-items: center;
-            gap: 10px;
-            padding: 20px;
+        }
+        
+        .intro{
+            padding-left: 50%;
         }
 
-        .c1{
-            background-color: transparent;
-            padding-left: 20px;
-            order: 1;
+        .about{
+            padding-right: 50%;
+            text-align: left;
         }
 
-        .c2{
-            background-color: transparent;
-            order: 2;
-            padding-left: 800px;
+        .skills{
+            padding-left: 50%;
         }
 
-        .c2padding{
-            padding-left: 100px;
+        .projects{
+            padding-left: 10%;
         }
 
         @media (max-width: 768px) {
@@ -75,26 +44,25 @@
             }
 
             .navigation {
-                padding-left: 20px;
+                padding-left: 10%;
                 display: flex;
                 flex-direction: column;
-                gap: 10px;
+                gap: 10%;
             }
 
             .big, .Education, .instyle {
-                padding-left: 20px !important;
-                padding-right: 20px !important;
+                padding-left: 10% ;
+                padding-right: 10% ;
             }
 
             h1, p {
-                text-align: center !important;
-                padding: 0 !important;
+                text-align: center ;
+                padding: 0 ;
             }
 
             video {
-                width: 100% !important;
-                height: auto !important;
+                width: 100% ;
+                height: auto ;
             }
+
         }
-
-
