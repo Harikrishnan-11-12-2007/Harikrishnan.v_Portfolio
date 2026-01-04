@@ -33,6 +33,7 @@ Hosted using GitHub Pages
 
 
 📁 Folder Structure
+
 ├── index.html
 ├── style.css
 ├── assets/
