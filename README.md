@@ -34,7 +34,7 @@ Hosted using GitHub Pages
 
 📁 Folder Structure
 
-├── index.html
+├── index.html 
 ├── style.css
 ├── assets/
 │   └── images
