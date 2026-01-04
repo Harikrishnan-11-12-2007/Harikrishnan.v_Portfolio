@@ -30,16 +30,6 @@ Hosted using GitHub Pages
 
   A career counseling website to help students explore different career paths with guidance and resources.
 
-
-
-📁 Folder Structure
-
-├── index.html 
-├── style.css
-├── assets/
-│   └── images
-└── README.md
-
 📬 Contact
 
   📧 Email: harikrishnan.venkitakrishnan@gmail.com
